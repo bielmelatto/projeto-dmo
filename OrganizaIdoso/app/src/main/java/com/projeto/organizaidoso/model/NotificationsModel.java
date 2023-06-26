@@ -1,15 +1,16 @@
-package com.projeto.organizaidoso.ui.emergency;
+package com.projeto.organizaidoso.model;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class EmergencyViewModel extends ViewModel {
+public class NotificationsModel extends ViewModel {
+
     private final MutableLiveData<String> mText;
 
-    public EmergencyViewModel() {
+    public NotificationsModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is home fragment");
+        mText.setValue("Sem notificações");
     }
 
     public LiveData<String> getText() {

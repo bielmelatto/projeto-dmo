@@ -1,4 +1,4 @@
-package com.projeto.organizaidoso.ui.dashboard;
+package com.projeto.organizaidoso.view;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -6,18 +6,17 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.projeto.organizaidoso.R;
 import com.projeto.organizaidoso.databinding.FragmentDashboardBinding;
 import com.projeto.organizaidoso.enums.SharedEnum;
-import com.projeto.organizaidoso.services.tasks.Task;
+import com.projeto.organizaidoso.model.Task;
+import com.projeto.organizaidoso.controller.TaskListAdapter;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -30,7 +29,7 @@ import java.util.Date;
 import java.util.Locale;
 import java.util.Map;
 
-public class DashboardFragment extends Fragment {
+public class DashboardView extends Fragment {
 
     private FragmentDashboardBinding binding;
 

@@ -1,4 +1,4 @@
-package com.projeto.organizaidoso.ui.notifications;
+package com.projeto.organizaidoso.view;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -11,21 +11,22 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
 import com.projeto.organizaidoso.databinding.FragmentNotificationsBinding;
+import com.projeto.organizaidoso.model.NotificationsModel;
 
-public class NotificationsFragment extends Fragment {
+public class NotificationsView extends Fragment {
 
     private FragmentNotificationsBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        NotificationsViewModel notificationsViewModel =
-                new ViewModelProvider(this).get(NotificationsViewModel.class);
+        NotificationsModel notificationsModel =
+                new ViewModelProvider(this).get(NotificationsModel.class);
 
         binding = FragmentNotificationsBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
         final TextView textView = binding.textNotifications;
-        notificationsViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        notificationsModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 

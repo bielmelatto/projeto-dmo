@@ -1,4 +1,4 @@
-package com.projeto.organizaidoso.ui.dashboard;
+package com.projeto.organizaidoso.controller;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -14,7 +14,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.gson.Gson;
 import com.projeto.organizaidoso.R;
-import com.projeto.organizaidoso.services.tasks.Task;
+import com.projeto.organizaidoso.model.Task;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Locale;

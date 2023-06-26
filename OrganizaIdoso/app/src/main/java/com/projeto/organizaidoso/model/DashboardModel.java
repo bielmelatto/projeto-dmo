@@ -1,16 +1,16 @@
-package com.projeto.organizaidoso.ui.notifications;
+package com.projeto.organizaidoso.model;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class NotificationsViewModel extends ViewModel {
+public class DashboardModel extends ViewModel {
 
     private final MutableLiveData<String> mText;
 
-    public NotificationsViewModel() {
+    public DashboardModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("Sem notificações");
+        mText.setValue("This is dashboard fragment");
     }
 
     public LiveData<String> getText() {

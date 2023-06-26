@@ -1,14 +1,11 @@
-package com.projeto.organizaidoso.ui.emergency;
+package com.projeto.organizaidoso.view;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.lifecycle.ViewModelProvider;
 
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
@@ -18,7 +15,7 @@ import android.widget.Button;
 
 import com.projeto.organizaidoso.R;
 
-public class EmergencyFragment extends Fragment {
+public class EmergencyView extends Fragment {
 
     private Button buttonCall190, buttonCall192, buttonCall193;
 

@@ -1,4 +1,4 @@
-package com.projeto.organizaidoso.services.tasks;
+package com.projeto.organizaidoso.model;
 
 import java.util.Date;
 

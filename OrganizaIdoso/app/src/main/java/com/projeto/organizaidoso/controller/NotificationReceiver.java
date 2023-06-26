@@ -9,7 +9,7 @@
 //import androidx.core.app.NotificationManagerCompat;
 //
 //import com.projeto.organizaidoso.R;
-//import com.projeto.organizaidoso.services.tasks.Task;
+//import com.projeto.organizaidoso.model.Task;
 //
 //import java.util.ArrayList;
 //import java.util.Calendar;

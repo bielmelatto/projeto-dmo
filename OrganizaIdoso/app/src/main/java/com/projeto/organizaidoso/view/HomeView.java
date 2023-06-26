@@ -1,4 +1,4 @@
-package com.projeto.organizaidoso.ui.home;
+package com.projeto.organizaidoso.view;
 
 import android.app.AlertDialog;
 import android.app.DatePickerDialog;
@@ -20,7 +20,7 @@ import androidx.fragment.app.Fragment;
 import com.projeto.organizaidoso.R;
 import com.projeto.organizaidoso.databinding.FragmentHomeBinding;
 import com.projeto.organizaidoso.enums.SharedEnum;
-import com.projeto.organizaidoso.services.tasks.Task;
+import com.projeto.organizaidoso.model.Task;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -32,7 +32,7 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 
-public class HomeFragment extends Fragment {
+public class HomeView extends Fragment {
     private ArrayList<Task> taskList = new ArrayList<>();
     private EditText titleEditText;
     private EditText descriptionEditText;
