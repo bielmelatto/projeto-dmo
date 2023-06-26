@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">OrganizaIdoso</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Tarefas</string>
+    <string name="title_notifications">Notificações</string>
+    <string name="title_emergency">Emergência</string>
+
+    <string name="title_hint">Tarefa</string>
+    <string name="description_hint">Descrição</string>
+    <string name="due_date_label">Data de vencimento</string>
+    <string name="save_button_text">Salvar</string>
+
+    <string name="btn_police">Polícia Militar</string>
+    <string name="btn_firemen">Bombeiros</string>
+    <string name="btn_ambulance">Ambulância</string>
+
+    <string name="emergency_title">Telefones de emergência</string>
+    <string name="emergency_tip">Clique em um dos botões para ligar</string>
+
+    <string name="select_date_button_text">Selecionar data</string>
+    <string name="select_time_button_text">Selecionar horário</string>
+
+    <string name="home_title">Cadastrar tarefa</string>
+
+    <string name="save_task">Sucesso</string>
+    <string name="save_task_success">Tarefa criada</string>
+
+    <string name="delete_button_description">Excluir</string>
+
+</resources>

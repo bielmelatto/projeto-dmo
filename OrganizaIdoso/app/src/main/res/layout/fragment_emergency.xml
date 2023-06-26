@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    tools:context=".ui.emergency.EmergencyFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/emergency_title"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:id="@+id/button_call_190"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:text="@string/btn_police" />
+
+            <Button
+                android:id="@+id/button_call_192"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:text="@string/btn_ambulance" />
+
+            <Button
+                android:id="@+id/button_call_193"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:text="@string/btn_firemen" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/emergency_tip"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="16dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>
